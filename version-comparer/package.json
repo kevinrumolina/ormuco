@@ -1,0 +1,18 @@
+{
+  "name": "version-comparer",
+  "version": "1.0.1",
+  "description": "Library to compare versions of packages",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Kevin Jair Ruiz Molina",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "mocha": "^10.2.0"
+  },
+  "jest": {
+    "verbose": true
+  }
+}
