@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intersecting Lines</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">Intersecting Lines</h1>
+        <p>Your goal for this question is to write a program that accepts two lines (x1,x2) and (x3,x4) on the
+            x-axis and returns whether they overlap. As an example, (1,5) and (2,6) overlaps but not (1,5)
+            and (6,8).</p>
+        <div class="segment">
+            <label>
+                X1
+                <input type="number" id="segment1Point1" placeholder="0">
+            </label>
+            <label>
+                X2
+                <input type="number" id="segment1Point2" placeholder="0">
+            </label>
+        </div>
+        <br />
+        <div class="segment">
+            <label>
+                X3
+                <input type="number" id="segment2Point1" placeholder="0">
+            </label>
+            <label>
+                X4
+                <input type="number" id="segment2Point2" placeholder="0">
+            </label>
+        </div>
+        <button type="submit" onclick="checkIntersection()">Check Intersection</button>
+
+        <p id="result"></p>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
